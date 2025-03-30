@@ -1,0 +1,93 @@
+.solapan {
+    background-image: url(../images/Homepage-SolarPanels-01-Desktop\ \(1\).avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-top: -25px;
+}
+
+.solapantxt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+
+.solapantxt1 h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+.solapantxt2 h2 {
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.solapantxt2 a {
+    /* display: inline-block;
+    color: white;
+    text-decoration-thickness: 1px ;
+    transition: opacity 0.3s ease;
+    opacity: 0.5;
+    text-underline-offset: 7px; */
+    text-decoration: none;
+    position: relative;
+    color: white;
+
+}
+
+.solapantxt2  a::after {
+    content: "";
+    display: block;
+    left: 50%;
+    height: 1px;
+    background: white;
+    opacity: 0.8;
+    transition: opacity 0.3 ease ;
+}
+
+.solapantxt2 a:hover::after {
+    opacity: 1;
+}
+
+
+.solapanbutton { 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+    margin-top: 420px;
+}
+
+.solapanbutton1 button{
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    background-color: rgba(50, 50, 211, 0.904);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.solapanbutton2 button{
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+} */ */

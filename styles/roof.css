@@ -1,0 +1,66 @@
+.roof {
+    background-image: url(../images/Homepage-SolarRoof-Desktop-US.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.rooftxt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 85px;
+}
+
+
+.rooftxt1 h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+.rooftxt2 h2 {
+    color: white;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+
+.roofbutton { 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+    margin-top: 450px;
+}
+
+.roofbutton1 button{
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    background-color: rgba(50, 50, 211, 0.904);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.roofbutton2 button {
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}

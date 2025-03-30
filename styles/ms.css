@@ -1,0 +1,81 @@
+.mods {
+    background-image: url(../images/Homepage-Model-S-Desktop-US\ \(1\).avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: -1px;
+}
+
+
+.mods {
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    height: 100%;
+}
+
+.mstext1 {
+    font-size: 25px;
+    color: white;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.mstext2 {
+    font-size: 20px;
+    color: white;
+    margin-top: -150px;
+}
+
+.mstext3 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 5px;
+    margin-top: -220px;
+}
+
+.mstext3 .p1 {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.mstext3 sup {
+    font-size: 9px;
+}
+
+.msbutton { 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+    margin-top: 275px;
+}
+
+.msbutton1 {
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(50, 50, 211, 0.904);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.msbutton2 {
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}

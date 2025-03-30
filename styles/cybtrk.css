@@ -1,0 +1,72 @@
+.cybtrk {
+    background-image: url(../images/Homepage-Cybertruck-Desktop-v3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: -25px;
+}
+
+.cybtxt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cyblogo{
+    margin-top: 100px;
+}
+
+.cyblogo img {
+    width: 300px; 
+}
+
+.cybtxt1 {
+    color: white;
+    margin-top: -5px;
+    font-size: 18px;
+}
+
+.cybtxt1 sup {
+    font-size: 8px;
+}
+
+.cybbutton {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+    margin-top: 420px;
+}
+
+.cybbutton button {
+   width: 250px; 
+   padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    color: rgb(162, 163, 165);
+    background-color: rgb(17, 17, 17);
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 0;
+    position: relative; 
+}
+
+.cybbutton1 button {
+    position: relative;
+    border: none;
+}
+
+.cybbutton1 ::before {
+    content: ""; /* Creates the pseudo-element */
+    position: absolute;
+    top: -5px; /* Adjust to control the distance from the button */
+    left: 50%; /* Center the line horizontally */
+    transform: translateX(-50%); /* Center alignment */
+    width: 100%; /* Adjust the width of the line */
+    height: 3px; /* Height of the floating line */
+    background-color: rgba(162, 163, 165, 0.74); /* Line color */
+}
+

@@ -1,0 +1,62 @@
+.powerwall {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/Homepage-Powerwall-Desktop-US.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.walltxt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.powerwalltxt {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.powerwalltxt h1{
+    color: white;
+    font-size: 50px;
+}
+
+
+.wallbutton { 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+    margin-top: 500px;
+}
+
+.wallbutton1 button{
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    background-color: rgba(50, 50, 211, 0.904);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.wallbutton2 button{
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
