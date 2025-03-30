@@ -1,0 +1,77 @@
+
+/* model y page styles*/
+
+.model-y {
+    background-image: url(../images/Homepage-Model-Y-Desktop-US-v2\ \(1\).avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: -25px;
+}
+
+.text {
+    display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  height: 100%;
+}
+
+.text h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 70px;
+}
+
+.text h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-underline-offset: 8px; 
+    color: white;
+    text-decoration-thickness: -4px;
+    margin-top: -25px;
+}
+
+.text h3 {
+    color: white;
+    margin-top: -15px;
+}
+
+.text h3 sup {
+    font-size: 9px;
+}
+
+.buttonsy { 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+    margin-top: 450px;
+}
+
+.button1 {
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(50, 50, 211, 0.904);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.button2 {
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}

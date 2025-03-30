@@ -1,0 +1,36 @@
+.acc {
+    background-image: url(../images/Homepage-Accessories-Desktop-US.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.accinput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    gap: 500px;
+}
+
+.acctxt h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.accbutton1 button{
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    text-align: center;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(50, 50, 211);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+

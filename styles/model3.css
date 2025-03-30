@@ -1,0 +1,75 @@
+.Model-3 {
+    background-image: url(../images/Homepage-Model-3-Desktop-US\ \(1\).avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin-top: -25px;
+}
+
+
+.Model-3 {
+    display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  height: 100%;
+}
+
+.m3text1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.m3text2 {
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 8px; 
+    color: white;
+    text-decoration-thickness: -4px;
+    margin-top: -300px;
+}
+
+.m3text3 {
+    color: white;
+    margin-top: -500px;
+}
+
+.m3text3 sup {
+    font-size: 9px;
+}
+
+.m3button { 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.m3button1 {
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    background-color: rgba(50, 50, 211, 0.904);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.m3button2 {
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}

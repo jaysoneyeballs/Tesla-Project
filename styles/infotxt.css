@@ -1,0 +1,19 @@
+.infotxt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+.infotxtm {
+    display: grid;
+    text-align: center;
+    width: 550px;
+    height: 50px;
+    padding-top: 40px;
+    gap: 5px;
+} 
+
+.infotxtm p {
+    font-size: .8em;
+}

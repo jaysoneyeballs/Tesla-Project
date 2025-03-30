@@ -1,0 +1,82 @@
+.modx {
+    background-image: url(../images/Homepage-Model-X-Desktop-US\ \(1\).avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+.modx {
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    height: 100%;
+}
+
+.modxtext1 {
+    font-size: 25px;
+    color: white;
+    margin: 0px 0px 0px 20px;
+    font-weight: 400;
+
+}
+
+.modxp {
+    color: white;
+    margin: -300px 5px 10px 30px;
+}
+
+.modxp sup {
+    font-size: 9px;
+
+}
+
+.modxtext2 {
+    font-size: 15px;
+    text-decoration: underline;
+    text-underline-offset: 4px; 
+    color: white;
+    text-decoration-thickness: -4px;
+    margin: -530px 0px 0px 20px;
+}
+
+.txt2{
+    font-size: 17px;
+    margin: -15px 0 0 10px;
+}
+
+
+.mxbutton { 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.mxbutton1 {
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(50, 50, 211, 0.904);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mxbutton2 {
+    width: 250px;
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 10px 30px; /* Padding */
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}

@@ -1,0 +1,20 @@
+.nav-bottom{
+    display: flex;
+    justify-content: center;
+    padding-top: -10px;
+    padding-bottom: 100px;
+}
+
+.nav-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 12px;
+}
+
+.nav-nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
